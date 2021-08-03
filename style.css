@@ -104,7 +104,7 @@ navbar{
     z-index:-1;
     transition:all ease 0.5s;
     box-shadow: 2px 1px 5px inset #000000;
-    x;
+    
 }
 .text a:hover:before{
     width:100%;
