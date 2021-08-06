@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/mak_interviewer_development',{ useNewUrlParser: true , useUnifiedTopology: true,useCreateIndex: true });
+mongoose.connect('mongodb://localhost/mak_interviewer_development',
+{ 
+    useNewUrlParser: true ,
+     useUnifiedTopology: true,
+     useCreateIndex: true
+     });
 
 const db = mongoose.connection;
 

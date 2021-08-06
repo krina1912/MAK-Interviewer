@@ -6,6 +6,7 @@ const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 const session = require('express-session');
 const MongoStore=require('connect-mongo')(session);
+const googleStrategy = require('./config/passport-google-oauth2.0.js');
 
 app.use(express.urlencoded());
 
@@ -16,7 +17,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.use(session({
-    name: 'e-com',
+    name: 'mak',
     secret: 'xyzabc',
     saveUninitialized: false,
     resave: false,
