@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+* {
+    margin:0;
+    padding:0;
+    outline: none;
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace; 
+}
+body{
+    background:#292929;;
+}
+/* p{
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+} */
+.navbar{
+    padding-top: 25vh;
+    background: #1F1F1F;
+    position: fixed;
+    width: 98px;
+    height: 100vh;
+    left: 0px;
+    padding-left: 0;
+}
+.navbar img{
+    position: fixed;
+    /* width: 80px;
+    height: 90px; */
+    /* left: 3px;
+    top: 293px; */
+    margin: 1.5em 0;
+    padding-left: 1em;
+
+
+
+}
+.username{
+    position: absolute;
+    width: 100vw;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #1F1F1F;
+    display: flex;
+
+}
+.left{
+    width: 50vw;
+}
+.right{
+    padding: 2em;
+    /* margin: 2em; */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.meet img{
+    /* position: fixed; */
+    width: 50px;
+    height: 69px;
+    margin-left: 5px;
+    top: 100px;
+    justify-content: center;
+
+}
+.meet p{
+    font-size: 17px;
+    top: 83px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+.template img{
+    /* position: fixed; */
+    width: 50px;
+    height: 65px;
+    left: 2px;
+    top: 200px;
+}
+
+/* .template p{
+    font-size: 17px;
+    top: 400px;
+} */
+.calender img{
+    width: 50px;
+    height: 65px;
+    top: 300px;
+}
+.support img{
+    width: 60px;
+    height: 65px;
+    top: 400px;
+}
+.userProfile-dropdown{
+    color:white;
+    border: 2px solid white;
+}
